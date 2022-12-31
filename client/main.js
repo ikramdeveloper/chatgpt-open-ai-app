@@ -1,7 +1,8 @@
 import bot from "./assets/bot.svg";
 import user from "./assets/user.svg";
 
-const BACKEND_URL = "http://localhost:8000";
+// const BACKEND_URL = "http://localhost:8000";
+const BACKEND_URL = "https://chatgpt-open-ai-app-production.up.railway.app/";
 
 const form = document.querySelector("form");
 const chatContainer = document.querySelector("#chat_container");
